@@ -14,5 +14,6 @@ CREATE TABLE DataWareHouse.dbo.DIM_Fechas (
 	Trimestre tinyint NOT NULL,
 	CONSTRAINT DIM_Fechas_PK PRIMARY KEY (FechaHecho),
 	CONSTRAINT DIM_Fechas_DIM_Dias_Semana_FK FOREIGN KEY (DiaSemana) REFERENCES DataWareHouse.dbo.DIM_Dias_Semana(DiaSemana),
-	CONSTRAINT DIM_Fechas_DIM_Meses_FK FOREIGN KEY (Mes) REFERENCES DataWareHouse.dbo.DIM_Meses(Mes)
+	CONSTRAINT DIM_Fechas_DIM_Meses_FK FOREIGN KEY (Mes) REFERENCES DataWareHouse.dbo.DIM_Meses(Mes),
+	CONSTRAINT DIM_Fechas_DIM_Trimestres_FK FOREIGN KEY (Trimestre) REFERENCES DataWareHouse.dbo.DIM_Trimestres(Trimestre)
 );
