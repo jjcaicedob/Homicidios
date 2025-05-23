@@ -4,7 +4,7 @@
 
 -- DROP TABLE DataWareHouse.dbo.DIM_Sexos;
 
-CREATE TABLE DWH.dbo.DIM_Sexos (
+CREATE TABLE DataWareHouse.dbo.DIM_Sexos (
 	IdSexo tinyint IDENTITY(1,1) NOT NULL,
 	NomSexo nvarchar(10) NOT NULL,
 	CONSTRAINT DIM_Sexos_PK PRIMARY KEY (IdSexo)
