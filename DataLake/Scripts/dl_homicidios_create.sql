@@ -12,5 +12,5 @@ CREATE TABLE DataLake.dbo.DL_Homicidios (
 	MUNICIPIO nvarchar(30) NULL,
 	ZONA nvarchar(10) NULL,
 	SEXO nvarchar(20) NULL,
-	CANTIDAD smallint NULL
+	CANTIDAD tinyint NULL
 );
