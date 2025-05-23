@@ -1,5 +1,5 @@
 # Scripts
-Contiene los comandos SQL para la creación de las tablas de dimensión y de hecos del modelo _Copo de Nieve_ que soportará el análisis de los datos. 
+Contiene los comandos SQL para la creación de las tablas de _dimensión_ y de _hechos_ del modelo _Copo de Nieve_ que soportará el análisis de los datos. 
 
 El orden de ejecución por las dependencias y las relaciones, es el siguiente:
 
