@@ -9,5 +9,5 @@ CREATE TABLE DataLake.dbo.DL_Departamentos (
 	NOM_DPTO nvarchar(60) NULL,
 	LATITUD float NULL,
 	LONGITUD float NULL,
-	GeoDepartamento varchar(50) NULL
+	GeoDepartamento varchar(35) NULL
 );
