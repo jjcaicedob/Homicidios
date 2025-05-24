@@ -1,5 +1,5 @@
 # Homicidios en Colombia
-Para el análisis de los datos se siguen las siguientes etapas en el siguiente orden:
+Para el análisis de los datos se organizan las siguientes carpetas:
 
 1. **Preprocessing**: Uso de funciones de Python para analizar, limpiar, explorar, visualizar y manipular el dataset.
 2. **Data Lake**: Diseño de un lago de datos con los dataset necesarios para el análisis de los Homicidios en Colombia. Contiene los Scripts y los Sources.
