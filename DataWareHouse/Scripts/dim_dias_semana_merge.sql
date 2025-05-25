@@ -9,7 +9,7 @@
 -- El WHEN:
 -- Si no hay coincidencia (es decir, ese día no existe en la tabla), se ejecuta esta parte.
 -- Inserta el día y su abreviatura en la tabla.
-MERGE DataWareHouse.dbo.DIM_Dias_Semana AS target
+MERGE dbo.DIM_Dias_Semana AS target
 USING (VALUES
     ('Lunes', 'LUN'),
     ('Martes', 'MAR'),
