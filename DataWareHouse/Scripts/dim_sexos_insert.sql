@@ -1,5 +1,5 @@
-INSERT INTO dbo.DIM_Sexos 
+INSERT INTO DataWareHouse.dbo.DIM_Sexos 
 (NomSexo)
 SELECT DISTINCT SEXO
-FROM dbo.DL_Homicidios
+FROM DataLake.dbo.DL_Homicidios
 ORDER BY SEXO
