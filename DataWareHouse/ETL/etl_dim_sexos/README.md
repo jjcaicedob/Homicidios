@@ -1,6 +1,8 @@
 # ETL
 Extraer los datos del Data Lake (tabla DL_Homicidios) y cargarlos en Data Warehouse (tabla DIM_Sexos).
 
+![ETL](etl_dim_sexos.png)
+
 # Consideraciones:
 - Orden de ejecución: 3
 - No tiene dependencias, se puede ejecutar en cualquier orden.
