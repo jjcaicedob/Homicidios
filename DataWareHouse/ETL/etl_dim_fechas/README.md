@@ -1,6 +1,8 @@
 # ETL
 Extraer los datos del Data Lake (tabla DL_Homicidios) y cargarlos en Data Warehouse (tabla DIM_Fechas).
 
+![ETL](etl_dim_fechas.png)
+
 # Consideraciones:
 - Orden de ejecución: 6
 - Tiene dependencias de DIM_Dias_Semanas, DIM_Meses y DIM_Trimestres. Se debe ejecutar después de las dependencias.
