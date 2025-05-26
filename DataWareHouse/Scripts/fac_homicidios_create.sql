@@ -5,7 +5,7 @@
 IF OBJECT_ID('dbo.FAC_Homicidios', 'U') IS NULL
 BEGIN
 	CREATE TABLE dbo.FAC_Homicidios (
-		IdHomicidio int IDENTITY(1,1) NOT NULL,
+		IdHomicidio int NOT NULL,
 		FechaHecho date NOT NULL,
 		CodMpio int NOT NULL,
 		IdZona tinyint NOT NULL,
