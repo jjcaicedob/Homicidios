@@ -1,6 +1,8 @@
 # ETL
 Extraer los datos del Data Lake (tabla DL_Homicidios) y cargarlos en Data Warehouse (tabla FAC_Homicidios).
 
+![ETL](etl_fac_homicidios.png)
+
 # Consideraciones:
 - Orden de ejecución: 7
 - Tiene dependencias de todas las tablas dimensionales. Se debe ejecutar después de las dependencias.
