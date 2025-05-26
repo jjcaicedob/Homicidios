@@ -1,7 +1,7 @@
 # ETL
 Extraer los datos del dataset (dl_municipios.csv) y cargarlo en el Data Lake (tabla DL_Municipios).
 
-![ETL Municipios](etl_dl_municipios.png)
+![ETL](etl_dl_municipios.png)
 
 # Consideraciones:
 - Se puede ejecutar en cualquier orden dado que no tiene dependencias.
