@@ -1,7 +1,7 @@
 # ETL
 Extraer los datos del Data Lake (tabla DL_Departamentos) y cargarlos en Data Warehouse (tabla DIM_Departamentos).
 
-![ETL Departamentos](etl_dim_departamentos.png)
+![ETL](etl_dim_departamentos.png)
 
 # Consideraciones:
 - Orden de ejecución: 1
