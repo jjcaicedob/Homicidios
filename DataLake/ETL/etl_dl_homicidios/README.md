@@ -1,7 +1,7 @@
 # ETL
 Extraer los datos del dataset (dl_homicidios.csv) y cargarlo en el Data Lake (tabla DL_Homicidios).
 
-![ETL Homicidios](etl_dl_homicidios.png)
+![ETL](etl_dl_homicidios.png)
 
 # Consideraciones:
 - Se puede ejecutar en cualquier orden dado que no tiene dependencias.
